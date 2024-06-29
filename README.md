@@ -1,4 +1,5 @@
 Instagram Fake Profile Detector
+
 This project aims to create a tool for detecting fake profiles on Instagram using the K-Nearest Neighbors (KNN) algorithm. The detector is implemented in Python and hosted as a web application using Flask.
 
 Purpose
