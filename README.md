@@ -5,27 +5,30 @@ Instagram Fake Profile Detector
 A tool to detect fake profiles on Instagram using the K-Nearest Neighbors (KNN) algorithm, hosted as a Flask web application.
 
 📋 Table of Contents
+
 🌟 Features
+
 🎯 Purpose
-🚀 Installation and Setup
+
 📖 Usage
-📂 Project Structure
+
 🤝 Contributing
+
 📜 License
-🙏 Acknowledgments
 
 ---
 
 🌟 Features
-. KNN Algorithm: Classifies profiles as real or fake using profile features.
-. Web Interface: A simple, user-friendly web interface for analysis.
-. Scalability: Handles large volumes of profile data efficiently.
-. Drag-and-Drop Upload: Allows users to easily upload profile images.
-. Detailed Insights: Provides classification confidence scores.
+1. KNN Algorithm: Classifies profiles as real or fake using profile features.
+2. Web Interface: A simple, user-friendly web interface for analysis.
+3. Scalability: Handles large volumes of profile data efficiently.
+4. Drag-and-Drop Upload: Allows users to easily upload profile images.
+5. Detailed Insights: Provides classification confidence scores.
 
 ---
 
 🎯 Purpose
+
 With the growing impact of social media, fake profiles have become a significant problem, leading to:
 
 1. Spreading misinformation.
@@ -35,6 +38,7 @@ With the growing impact of social media, fake profiles have become a significant
 
 # Clone the repository
 git clone https://github.com/Ragini-Tiwari/instagram-fake-profile-detector.git
+
 cd instagram-fake-profile-detector
 
 # Create a virtual environment
@@ -49,6 +53,7 @@ python train_model.py
 
 # Run the Flask application
 python app.py
+
 3. Access the Application
 Once the application is running, open your browser and go to:
 http://127.0.0.1:5000/
@@ -63,3 +68,13 @@ View detailed results with:
 Profile Classification: Real/Fake.
 Confidence Score: Probability of classification.
 Suggested next steps for suspicious profiles.
+
+🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
