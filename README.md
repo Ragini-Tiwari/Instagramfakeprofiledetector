@@ -17,11 +17,11 @@ A tool to detect fake profiles on Instagram using the K-Nearest Neighbors (KNN) 
 ---
 
 🌟 Features
-KNN Algorithm: Classifies profiles as real or fake using profile features.
-Web Interface: A simple, user-friendly web interface for analysis.
-Scalability: Handles large volumes of profile data efficiently.
-Drag-and-Drop Upload: Allows users to easily upload profile images.
-Detailed Insights: Provides classification confidence scores.
+. KNN Algorithm: Classifies profiles as real or fake using profile features.
+. Web Interface: A simple, user-friendly web interface for analysis.
+. Scalability: Handles large volumes of profile data efficiently.
+. Drag-and-Drop Upload: Allows users to easily upload profile images.
+. Detailed Insights: Provides classification confidence scores.
 
 ---
 
@@ -33,13 +33,6 @@ With the growing impact of social media, fake profiles have become a significant
 3. Artificially inflating follower counts.
 4. This tool aims to identify suspicious profiles and promote a safer online environment.
 
-🚀 Installation and Setup
-1. Prerequisites
-Python 3.8 or higher installed on your machine.
-Basic knowledge of running Python and Flask applications.
-2. Steps to Set Up
-bash
-Copy code
 # Clone the repository
 git clone https://github.com/Ragini-Tiwari/instagram-fake-profile-detector.git
 cd instagram-fake-profile-detector
@@ -51,7 +44,7 @@ source venv/bin/activate  # For Windows, use: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Train the KNN model (example command, adjust based on implementation)
+# Train the KNN model 
 python train_model.py
 
 # Run the Flask application
