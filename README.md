@@ -56,6 +56,8 @@ python app.py
 Once the application is running, open your browser and go to:
 http://127.0.0.1:5000/
 
+---
+
 📖 Usage
 1. Upload Profile Image
 Drag and drop an image or use the "Choose File" button to upload an Instagram profile image.
