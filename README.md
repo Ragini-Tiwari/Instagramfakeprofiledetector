@@ -36,7 +36,6 @@ With the growing impact of social media, fake profiles have become a significant
 
 # Clone the repository
 git clone https://github.com/Ragini-Tiwari/instagram-fake-profile-detector.git
-
 cd instagram-fake-profile-detector
 
 # Create a virtual environment
