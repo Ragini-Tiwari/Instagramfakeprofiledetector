@@ -1,4 +1,4 @@
-Instagram Fake Profile Detector
+#Instagram Fake Profile Detector
 
 A tool to detect fake profiles on Instagram using the K-Nearest Neighbors (KNN) algorithm, hosted as a Flask web application.
 
