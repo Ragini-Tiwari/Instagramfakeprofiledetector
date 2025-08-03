@@ -1,9 +1,9 @@
-🕵️‍♀️ Instagram Fake Profile Detector
-A tool to detect fake Instagram profiles using the K-Nearest Neighbors (KNN) algorithm, presented with a clean and simple Flask-based web interface.
+# 🕵️‍♀️ Instagram Fake Profile Detector
 
-<!-- Replace this with the actual path to your image -->
+A Flask-based web application that detects fake Instagram profiles using the K-Nearest Neighbors (KNN) algorithm. It helps promote a safer online space by identifying potentially fraudulent accounts.
 
-📋 Table of Contents
+## 📋 Table of Contents
+
 🌟 Features
 
 🎯 Purpose
@@ -16,88 +16,90 @@ A tool to detect fake Instagram profiles using the K-Nearest Neighbors (KNN) alg
 
 📜 License
 
-🌟 Features
-✅ KNN Algorithm: Classifies Instagram profiles as Real or Fake based on extracted features.
+# 🌟 Features
+✅ KNN Algorithm: Predicts whether a profile is Real or Fake based on extracted features.
 
-🌐 Web Interface: User-friendly UI built with Flask.
+🌐 Web Interface: Clean and simple interface using Flask.
 
-📈 Scalability: Capable of processing large sets of profile data efficiently.
+📈 Scalable: Efficiently processes large profile datasets.
 
-🖱️ Drag-and-Drop Upload: Upload profile images effortlessly.
+🖱️ Drag & Drop Upload: Easily upload profile images for analysis.
 
-📊 Detailed Insights: Displays classification results with confidence scores.
+📊 Insightful Results: Confidence scores provided for each classification.
 
-🎯 Purpose
-With the rise of social media usage, fake Instagram profiles are being used to:
+# 🎯 Purpose
+Fake profiles on Instagram contribute to:
 
-Spread misinformation
+Misinformation,
+Scams,
+Artificial follower growth
 
-Conduct scams
+This tool helps users and researchers identify suspicious accounts and encourages safer digital interaction.
 
-Inflate follower counts artificially
-
-This tool is designed to help identify suspicious profiles and promote a safer digital environment.
-
-🚀 Getting Started
-Follow the steps below to run the project locally:
-
+## 🚀 Getting Started
 1. Clone the Repository
+```
 git clone https://github.com/Ragini-Tiwari/instagram-fake-profile-detector.git
 cd instagram-fake-profile-detector
-
+```
 2. Create and Activate a Virtual Environment
-python -m venv venv
-For Windows:
+```
 venv\Scripts\activate
-For macOS/Linux:
-source venv/bin/activate
-
+```
 3. Install Dependencies
+```
 pip install -r requirements.txt
-
-4. Train the KNN Model
+```
+4. Train the Model
+```
 python train_model.py
-
-5. Launch the Flask Application
+```
+5. Launch the Application
+```
 python app.py
+```
+6. Access the App
+Open your browser and navigate to:
+```
+http://127.0.0.1:5000/
+```
 
-6. Open the App
-Visit: http://127.0.0.1:5000/
+## 📖Usage
 
-📖 Usage
-Upload Profile Image
-Drag and drop or use the file selector to upload an Instagram profile image.
+Drag & drop or select an Instagram profile image.
 
-Analysis
-The tool extracts features from the image and applies the KNN algorithm to determine if the profile is fake or real.
+Run Analysis
+
+The model processes the image and classifies the profile.
 
 View Results
-✔️ Classification: Real / Fake
+
+✔️ Real or Fake Classification
+
 📉 Confidence Score
-🔍 Suggested Actions (for suspicious profiles)
 
-🤝 Contributing
-Contributions are welcome! 🚀
+🔍 Suggested actions for suspicious profiles
 
-Steps to contribute:
 
-Fork the repo
+## 🤝 Contributing
+Contributions are welcome and appreciated!
 
-Create a new branch
+To contribute:
+Fork the repository
 
-Make your changes
+Create a new feature or fix branch
 
-Submit a pull request
+Commit your changes
 
-For major changes, please open an issue first to discuss.
+Open a pull request
 
-✅ Don’t forget to update/add tests if needed.
+For significant changes, open an issue to discuss your idea first.
 
-📜 License
+✅ Please ensure all changes are properly tested.
+## 📜 License
 This project is licensed under the MIT License.
-See the LICENSE file for details.
 
+See the LICENSE file for full details.
+[MIT](https://choosealicense.com/licenses/mit/)
+##
 Made with 💻 by Ragini Tiwari
-
-
-
