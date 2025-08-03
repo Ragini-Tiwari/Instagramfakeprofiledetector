@@ -1,12 +1,14 @@
-#Instagram Fake Profile Detector
+🕵️‍♀️ Instagram Fake Profile Detector
+A tool to detect fake Instagram profiles using the K-Nearest Neighbors (KNN) algorithm, presented with a clean and simple Flask-based web interface.
 
-A tool to detect fake profiles on Instagram using the K-Nearest Neighbors (KNN) algorithm, hosted as a Flask web application.
+<!-- Replace this with the actual path to your image -->
 
 📋 Table of Contents
-
 🌟 Features
 
 🎯 Purpose
+
+🚀 Getting Started
 
 📖 Usage
 
@@ -14,66 +16,88 @@ A tool to detect fake profiles on Instagram using the K-Nearest Neighbors (KNN) 
 
 📜 License
 
----
-
 🌟 Features
-1. KNN Algorithm: Classifies profiles as real or fake using profile features.
-2. Web Interface: A simple, user-friendly web interface for analysis.
-3. Scalability: Handles large volumes of profile data efficiently.
-4. Drag-and-Drop Upload: Allows users to easily upload profile images.
-5. Detailed Insights: Provides classification confidence scores.
+✅ KNN Algorithm: Classifies Instagram profiles as Real or Fake based on extracted features.
 
----
+🌐 Web Interface: User-friendly UI built with Flask.
+
+📈 Scalability: Capable of processing large sets of profile data efficiently.
+
+🖱️ Drag-and-Drop Upload: Upload profile images effortlessly.
+
+📊 Detailed Insights: Displays classification results with confidence scores.
 
 🎯 Purpose
+With the rise of social media usage, fake Instagram profiles are being used to:
 
-With the growing impact of social media, fake profiles have become a significant problem, leading to:
+Spread misinformation
 
-1. Spreading misinformation.
-2. Engaging in scams.
-3. Artificially inflating follower counts.
-4. This tool aims to identify suspicious profiles and promote a safer online environment.
+Conduct scams
 
-# Clone the repository
+Inflate follower counts artificially
+
+This tool is designed to help identify suspicious profiles and promote a safer digital environment.
+
+🚀 Getting Started
+Follow the steps below to run the project locally:
+
+1. Clone the Repository
 git clone https://github.com/Ragini-Tiwari/instagram-fake-profile-detector.git
 cd instagram-fake-profile-detector
 
-# Create a virtual environment
+2. Create and Activate a Virtual Environment
 python -m venv venv
-source venv/bin/activate  # For Windows, use: venv\Scripts\activate
+For Windows:
+venv\Scripts\activate
+For macOS/Linux:
+source venv/bin/activate
 
-# Install dependencies
+3. Install Dependencies
 pip install -r requirements.txt
 
-# Train the KNN model 
+4. Train the KNN Model
 python train_model.py
 
-# Run the Flask application
+5. Launch the Flask Application
 python app.py
 
-3. Access the Application
-Once the application is running, open your browser and go to:
-http://127.0.0.1:5000/
-
----
+6. Open the App
+Visit: http://127.0.0.1:5000/
 
 📖 Usage
-1. Upload Profile Image
-Drag and drop an image or use the "Choose File" button to upload an Instagram profile image.
-2. Analysis
-The tool extracts features and uses the KNN algorithm to classify the profile as Real or Fake.
-3. Results
-View detailed results with:
-Profile Classification: Real/Fake.
-Confidence Score: Probability of classification.
-Suggested next steps for suspicious profiles.
+Upload Profile Image
+Drag and drop or use the file selector to upload an Instagram profile image.
+
+Analysis
+The tool extracts features from the image and applies the KNN algorithm to determine if the profile is fake or real.
+
+View Results
+✔️ Classification: Real / Fake
+📉 Confidence Score
+🔍 Suggested Actions (for suspicious profiles)
 
 🤝 Contributing
+Contributions are welcome! 🚀
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Steps to contribute:
 
-Please make sure to update tests as appropriate.
+Fork the repo
+
+Create a new branch
+
+Make your changes
+
+Submit a pull request
+
+For major changes, please open an issue first to discuss.
+
+✅ Don’t forget to update/add tests if needed.
 
 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+Made with 💻 by Ragini Tiwari
+
+
+
