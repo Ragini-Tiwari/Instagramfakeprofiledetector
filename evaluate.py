@@ -10,3 +10,4 @@ def evaluate_model(model, X_test, y_test):
     class_report = classification_report(y_true, y_pred)
 
     return accuracy, confusion_mat, class_report
+
